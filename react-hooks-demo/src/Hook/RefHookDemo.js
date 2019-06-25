@@ -6,7 +6,6 @@ export default function RefHookDemo () {
   const [anotherCount, useAnotherCount] = React.useState (100);
   const previousCount = usePrevious (count);
   const previousAnotherCount = usePrevious (anotherCount);
-  debugger;
   return (
     <div>
       <p>
