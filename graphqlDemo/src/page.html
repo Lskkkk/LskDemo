@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphQL-demo</title>
+</head>
+
+<body>
+    <div id="app">loading...</div>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+</body>
+
+<script type="text/javascript">
+    window.onload = () => {
+        const queryStr = `{
+            user(id: "1") {
+                age
+            }
+        }`;
+        $.ajax({
+            url: '/graphql',
+            data: {
+                query: queryStr
+            },
+            success: (res) => {
+                $('#app').html(JSON.stringify(res));
+            }
+        });
+    };
+</script>
+
+</html>
