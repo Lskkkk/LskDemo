@@ -1,0 +1,20 @@
+{
+  "name": "nodeDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dest/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.3.4000",
+    "@types/node": "^11.11.4",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-react": "^3.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
