@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node ./dest/index.js",
-    "moduleDemo": "tsc && node ./dest/moduleDemo.js"
+    "moduleDemo": "tsc && node ./dest/moduleDemo.js",
+    "eventDemo": "tsc && node ./dest/eventDemo.js",
+    "promiseDeferredDemo": "tsc && node ./dest/promiseDeferredDemo.js"
   },
   "dependencies": {},
   "devDependencies": {
