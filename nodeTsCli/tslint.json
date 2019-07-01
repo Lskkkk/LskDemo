@@ -43,7 +43,8 @@
         "eofline": false,
         "variable-name": false,
         "no-var-requires": false,
-        "ter-arrow-parens": false
+        "ter-arrow-parens": false,
+        "max-classes-per-file": false
     },
     "rulesDirectory": []
 }
