@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
-        "allowJs": true,
+        "allowJs": false,
         "jsx": "preserve",
         "outDir": "dest",
         "strict": true,
@@ -22,7 +22,8 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "isolatedModules": false,
-        "noEmit": false
+        "noEmit": false,
+        "rootDir": "src"
     },
     "include": [
         "src"

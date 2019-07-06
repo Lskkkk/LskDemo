@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./dest/index.js"
+    "start": "rm -rf dest && tsc && node ./dest/index.js",
+    "watch": "rm -rf dest && tsc-watch --onSuccess 'node ./dest/index.js'"
   },
   "dependencies": {},
   "devDependencies": {
@@ -12,7 +13,8 @@
     "@types/node": "^11.11.4",
     "tslint": "^5.14.0",
     "tslint-config-airbnb": "^5.11.1",
-    "tslint-react": "^3.6.0"
+    "tslint-react": "^3.6.0",
+    "tsc-watch": "^2.2.1"
   },
   "keywords": [],
   "author": "",
