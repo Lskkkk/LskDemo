@@ -1,27 +1,2 @@
-# 关于React Hooks我的看法
-1. 比较爽的点：
-    - 代码层面，从【把一件事情拆分到各个生命周期去做】到【完整的做一件事情】
-    - 数据管理可抽出做公用逻辑，复用程度较高，比HOC写法上更加精简
-2. 缺点：
-    - 有些语法不那么自然
-3. 总结：
-    - 可代替目前大部分state组件，代码复用程度更高，语法更加简洁，从代码的角度值得采用
-    - 性能问题待评估
-
-didmount
-A()
-B()
-
-update
-A()
-B()
-
-A(
-    didmount
-    update
-)
-
-B(
-    didmount
-    update
-)
+# 实现简单的hooks，useState，useEffect
+具体实现在src/TinyHooks/myHooks
