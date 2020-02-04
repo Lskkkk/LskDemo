@@ -10,6 +10,10 @@ class App extends React.Component {
   componentDidMount() {
     console.log('componentDidMount!!!!!!!');
   }
+  static getDerivedStateFromProps() {
+    console.log('getDerivedStateFromProps!!!!!!!');
+    return null;
+  }
   render() {
     console.log('render!!!!!!!');
     return (
