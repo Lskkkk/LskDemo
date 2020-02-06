@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf dest && tsc && node ./dest/index.js",
+    "start": "rm -rf dest && (tsc || true) && node ./dest/eventLoop/example2.js",
     "watch": "rm -rf dest && tsc-watch --onSuccess 'node ./dest/index.js'"
   },
   "dependencies": {},
