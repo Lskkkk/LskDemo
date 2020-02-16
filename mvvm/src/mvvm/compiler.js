@@ -13,10 +13,13 @@ export default (() => {
 
     // 一些render操作
 
-    new Watcher({
+    // 设置update view的方法
+    const update = (old, current) => console.log('old: ' + old + ', current: ' + current);
+    update(obj.a, obj.a); // 立即更新
+    new Watcher({ // 设置后续订阅
         vm: obj,
         exp: 'a',
-        cb: (old, current) => console.log('old: ' + old + ', current: ' + current) // 设置update view的方法
+        cb: update
     });
 
     // 模拟VM改变
