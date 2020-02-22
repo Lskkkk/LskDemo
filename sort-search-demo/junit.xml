@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" time="0.922">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-01-14T09:25:16" time="0.384" tests="1">
-    <testcase classname=" 正常数据" name=" 正常数据" time="0.004">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-01-14T09:25:17" time="0.045" tests="1">
-    <testcase classname=" 测试" name=" 测试" time="0.001">
+<testsuites name="jest tests" tests="1" failures="0" time="0.79">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-02-21T04:18:32" time="0.336" tests="1">
+    <testcase classname=" 正常数据" name=" 正常数据" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>
